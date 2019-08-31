@@ -26,17 +26,19 @@ application gradle
 * Add Read External Storage, Write External Storage permissions
 * Initialize 
 
+```java
        CameraAPIHelper  cameraAPIHelper = new CameraAPIHelper.Builder(textureView, this)  
             .setCameraType(CameraAPIHelper.CameraType.BACK)  
             .setImageCompressionRatio(80)  
             .setImageWidthandHeight(600, 600)  
             .build();
+```
 
 * <b>Options for Camera Type - FRONT, BACK</b>
 ### How to take a picture
 
  
-
+```java
       findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {  
         @Override  
         public void onClick(View view) {  
@@ -53,6 +55,6 @@ application gradle
             });   
          }  
       });
- 
+ ```
 Connect with me on [LinkedIn](https://www.linkedin.com/in/gihansandaru/)
 
