@@ -1,0 +1,2 @@
+include ':app', ':camera2apihelper'
+rootProject.name='Camera2Compact'
